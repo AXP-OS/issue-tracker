@@ -1,18 +1,19 @@
 ---
 name: Support new device request
 about: suggest to support a new device
-title: ''
-labels: ''
+title: 'new device request: <vendor> <model>'
+labels: 'device-request'
 assignees: ''
 
 ---
 
 # Required information
 
-- Device vendor and model -> 
+- Device vendor and model ->
+- Device codename (if known) -> 
 - LineageOS device tree -> _link_(*)
 - Supported by DivestOS already? -> Yes/No
-- I am willing to support (requires either Matrix or Telegram) -> 
+- I am willing to provide logs (requires either Matrix or Telegram) -> Yes/No (your request will likely get rejected if you select "No" here)
 
 # Note
 
