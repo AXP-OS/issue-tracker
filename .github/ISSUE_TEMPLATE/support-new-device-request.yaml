@@ -2,7 +2,6 @@ name: Support new device request
 description: suggest the support of a new device
 title: 'new device request: <vendor> <model>'
 labels: 'device-request'
-assignees: ''
 
 body:
   - type: input
