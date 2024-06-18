@@ -1,6 +1,6 @@
 name: Support new device request
 description: suggest the support of a new device
-title: 'new device request: <vendor> <model>'
+title: 'new device request'
 labels: 'device-request'
 
 body:
@@ -32,7 +32,7 @@ body:
     id: los_tree
     attributes:
       label: LineageOS device tree
-      description: What's the URL to the LineageOS repository holding the device tree?
+      description: What's the URL to the LineageOS repository holding the device tree (see Notes-1)?
       value: https://github.com/LineageOS/<FILL-IN>
     validations:
       required: false
@@ -58,5 +58,5 @@ body:
       value: |
         **Notes**
         
-        - _(1) Your request will likely get rejected if there is no official LOS reference or you are not willing/able to provide logs_
+        - _(1) Your request will likely get rejected if there is no official DivestOS and/or LOS reference or if you are not willing/able to provide logs_
         - _(2) Currently not supported devices might get added but this won't work without your help. That means you have to admit to test new builds and maybe provide logs if something is not working as expected._
