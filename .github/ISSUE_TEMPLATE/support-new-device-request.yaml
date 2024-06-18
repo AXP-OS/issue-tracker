@@ -41,15 +41,16 @@ body:
     attributes:
       label: Supported by DivestOS already?
       options: 
-        - yes
-        - no
+        - 'yes'
+        - 'no'
     validations:
       required: true
   - type: checkboxes
     id: sup_chan
+    label: I have joined the official AXP.OS [support channel](https://github.com/AXP-OS/build/wiki#support) and willing to provide logs if requested*
     attributes:
       options:
-        - label: I have joined the official AXP.OS [support channel](https://github.com/AXP-OS/build/wiki#support) and willing to provide logs if requested*
+        - label: 'yes, I've joined'
           required: true
   - type: markdown
     attributes:
