@@ -1,0 +1,57 @@
+name: Problem report
+description: Default issue template for problems or questions
+
+body:
+  - type: input
+    id: vendor
+    attributes:
+      label: Device vendor
+      description: What's the device vendor?
+      placeholder: Google, OnePlus, Sony, ...
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Device model
+      description: What's the device model name?
+      placeholder: Pixel 7a, 7T Pro, bravia, ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: OS version
+      description: Exact build version + date / file name
+      placeholder: "AXP.OS-20.0-20240617-dos-cheetah"
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: "Describe your problem including any hints to reproduce it. Please walk us through it step by step."
+      value: |
+        1. 
+        2. 
+  - type: textarea
+    id: paste
+    attributes:
+      label: Log file(s)
+      description: |
+        If you can provide log files add those via a paste service here
+
+        **Note: do NOT add full log files within this issue!**
+        Always use a paste service and/or for bigger logs it is strongly recommended using [github gists](https://gists.github.com).
+      value: |
+        1. 
+        2. 
+    validations:
+      required: false
+  - type: textarea
+    id: pics
+    attributes:
+      label: Screenshot(s)
+      description: "a pic often says more then words! Please add them here if applicable"
+    validations:
+      required: false
