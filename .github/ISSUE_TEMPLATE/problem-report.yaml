@@ -58,8 +58,7 @@ body:
   - type: dropdown
     id: sup_chan
     attributes:
-      label: Prepared to support?
-      description: I have joined the official AXP.OS [support channel](https://github.com/AXP-OS/build/wiki#support) and willing to provide logs if requested
+      label: I have joined the official AXP.OS [support channel](https://github.com/AXP-OS/build/wiki#support) and willing to provide logs if requested
       options:
         - 'yes'
         - 'no'
