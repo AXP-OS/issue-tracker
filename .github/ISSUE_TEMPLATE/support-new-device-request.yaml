@@ -40,7 +40,7 @@ body:
     id: dos_avail
     attributes:
       label: Supported by DivestOS already?
-      options: 
+      options:
         - 'yes'
         - 'no'
     validations:
