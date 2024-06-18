@@ -42,14 +42,14 @@ body:
       label: Supported by DivestOS already?
       options:
         - 'yes'
-        - 'no*'
+        - 'no (see Notes-1)'
     validations:
       required: true
   - type: checkboxes
     id: sup_chan
     attributes:
       label: Prepared to support?
-      description: I have joined the official AXP.OS [support channel](https://github.com/AXP-OS/build/wiki#support) and willing to provide logs if requested*
+      description: I have joined the official AXP.OS [support channel](https://github.com/AXP-OS/build/wiki#support) and willing to provide logs if requested (see Notes-2)
       options:
         - label: "yes, I've joined"
           required: true
@@ -58,5 +58,5 @@ body:
       value: |
         **Notes**
         
-        _Currently not supported devices might get added but this won't work without your help. That means you have to admit to test new builds and maybe provide logs if something is not working as expected._
-        _(*)your request will likely get rejected if there is no official LOS reference or you are not willing/able to provide logs_
+        - _(1) Your request will likely get rejected if there is no official LOS reference or you are not willing/able to provide logs_
+        - _(2) Currently not supported devices might get added but this won't work without your help. That means you have to admit to test new builds and maybe provide logs if something is not working as expected._
