@@ -1,0 +1,60 @@
+name: Support new device request
+description: suggest the support of a new device
+title: 'new device request: <vendor> <model>'
+labels: 'device-request'
+assignees: ''
+
+body:
+  - type: input
+    id: vendor
+    attributes:
+      label: Device vendor
+      description: What's the device vendor?
+      placeholder: Google, OnePlus, Sony, ...
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Device model
+      description: What's the device model name?
+      placeholder: Pixel 7a, 7T Pro, bravia, ...
+    validations:
+      required: true
+  - type: input
+    id: codename
+    attributes:
+      label: Device codename
+      description: What's the device codename (if known)?
+      placeholder: sunfish, hotdog, ...
+    validations:
+      required: false
+  - type: input
+    id: los_tree
+    attributes:
+      label: LineageOS device tree
+      description: What's the URL to the LineageOS repository holding the device tree?
+      value: https://github.com/LineageOS/<FILL-IN>
+    validations:
+      required: false
+  - type: dropdown
+    id: dos_avail
+    attributes:
+      label: Supported by DivestOS already?
+      options: 
+        - yes
+        - no
+    validations:
+      required: true
+  - type: checkboxes
+    id: sup_chan
+    attributes:
+      label: I have joined the official AXP.OS [support channel](https://github.com/AXP-OS/build/wiki#support) and willing to provide logs if requested*
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Notes**
+        
+        _Currently not supported devices might get added but this won't work without your help. That means you have to admit to test new builds and maybe provide logs if something is not working as expected._
+        _(*)your request will likely get rejected if there is no official LOS reference or you are not willing/able to provide logs_
