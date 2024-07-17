@@ -28,12 +28,14 @@ body:
       placeholder: sunfish, hotdog, ...
     validations:
       required: false
-  - type: input
+  - type: textarea
     id: los_tree
     attributes:
-      label: LineageOS device tree
-      description: What's the URL to the LineageOS repository holding the device tree (see Notes-1)?
-      value: https://github.com/LineageOS/<FILL-IN>
+      label: LineageOS device tree and/or WIKI page
+      description: What's the LineageOS URL to the device tree and/or WIKI page (see Notes-1)?
+      value: |
+        https://github.com/LineageOS/<FILL-IN>
+        https://wiki.lineageos.org/devices/<FILL-IN>
     validations:
       required: false
   - type: dropdown
