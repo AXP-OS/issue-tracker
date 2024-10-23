@@ -1,6 +1,6 @@
 name: Support new device request
 description: suggest the support of a new device
-title: 'new device request'
+title: 'new device request: <DEVICE NAME>'
 labels: 'device-request'
 
 body:
@@ -34,7 +34,6 @@ body:
       label: LineageOS device tree and/or WIKI page
       description: What's the LineageOS URL to the device tree and/or WIKI page (see Notes-1)?
       value: |
-        https://github.com/LineageOS/<FILL-IN>
         https://wiki.lineageos.org/devices/<FILL-IN>
     validations:
       required: false
@@ -42,6 +41,7 @@ body:
     id: dos_avail
     attributes:
       label: Supported by DivestOS already?
+      description: see https://divestos.org/pages/devices for a current list
       options:
         - 'yes'
         - 'no (see Notes-1)'
