@@ -32,7 +32,9 @@ body:
     id: los_tree
     attributes:
       label: LineageOS device tree and/or WIKI page
-      description: What's the LineageOS URL to the device tree and/or WIKI page (see Notes-1)?
+      description: |
+        What's the LineageOS URL to the device tree and/or WIKI page (see Notes-1)?
+        See https://wiki.lineageos.org/devices for a current list
       value: |
         https://wiki.lineageos.org/devices/<FILL-IN>
     validations:
