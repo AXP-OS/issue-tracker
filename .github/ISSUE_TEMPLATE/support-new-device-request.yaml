@@ -53,9 +53,12 @@ body:
     id: sup_chan
     attributes:
       label: Prepared to support?
-      description: I have joined the official AXP.OS [support channel](https://github.com/AXP-OS/build/wiki#support) and willing to provide logs if requested (see Notes-2)
+      description: |
+        You should join the official AXP.OS [support channel](https://github.com/AXP-OS/build/wiki#support) and provide logs if requested.
+        When joining the support channel, ensure you send a link to this issue so we can identify you as the requester.
+        See Notes: (2)
       options:
-        - label: "yes, I've joined"
+        - label: "yes, I've joined AND linked this issue there"
           required: true
   - type: markdown
     attributes:
@@ -63,4 +66,4 @@ body:
         **Notes**
         
         - _(1) Your request will likely get rejected if there is no official DivestOS and/or LOS reference or if you are not willing/able to provide logs_
-        - _(2) Currently not supported devices might get added but this won't work without your help. That means you have to admit to test new builds and maybe provide logs if something is not working as expected._
+        - _(2) Currently not supported devices might get added but this won't work without your help. That means you have to admit to test new builds and maybe provide logs if something is not working as expected. To achieve this it is strongly required to use our official support channel._
