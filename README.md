@@ -1,3 +1,3 @@
-# No Code just issues
+# New location:
 
-see: [https://github.com/AXP-OS/issue-tracker/issues](https://github.com/AXP-OS/issue-tracker/issues)
+see: [https://code.binbash.rocks:8443/AXP.OS/issue-tracker/issues](https://code.binbash.rocks:8443/AXP.OS/issue-tracker/issues)
